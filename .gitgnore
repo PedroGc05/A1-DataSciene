@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm / VSCode / IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Sensitive files
+.env
+secrets.json
+credentials.json
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Model outputs / experiment artifacts
+models/
+outputs/
+artifacts/
+checkpoints/
+
+# Large data formats (tweak as needed; CSVs are not ignored by default)
+data/*.pkl
+data/*.h5
+data/*.parquet
+
+# Python wheel
+*.whl
+
+# Misc
+*.tar.gz
+*.zip
+
+# If you want to ignore the dataset CSVs, uncomment the following line:
+# data/*.csv
